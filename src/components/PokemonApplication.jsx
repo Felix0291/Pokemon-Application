@@ -12,7 +12,6 @@ let PokemonApplication = () => {
             let response = await fetch(`https://pokeapi.co/api/v2/pokemon?limit=151`)
             let json = await response.json()
             setPokemons(json.results)
-            console.log("nu hämtas api")
         }
         getPokemon()
     }, [])
