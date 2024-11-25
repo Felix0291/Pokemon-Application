@@ -41,7 +41,7 @@ let PokemonApplication = () => {
                     </option>
                 ))}
             </select>
-            <button className="getBtn" onClick={handleSubmit}><img className="pokeball" src="https://th.bing.com/th?id=OPHS.zQudqpAi9Vr%2BcQ474C474&w=180&h=180&c=17&o=5&pid=21.1" alt="" />    </button>
+            <button className="getBtn" onClick={handleSubmit}><img className="pokeball" src="https://th.bing.com/th?id=OPHS.zQudqpAi9Vr%2BcQ474C474&w=180&h=180&c=17&o=5&pid=21.1" alt="" /></button>
 
             {isSubmitted && pokemonInfo && <Pokemon data={pokemonInfo} />}
         </>
